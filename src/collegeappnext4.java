@@ -32,7 +32,6 @@ public class collegeappnext4 extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
 
@@ -59,8 +58,6 @@ public class collegeappnext4 extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-
-        jButton7.setText("Next");
 
         jButton8.setText("University school Of Information and Technology");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -92,11 +89,9 @@ public class collegeappnext4 extends javax.swing.JFrame {
                             .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addComponent(jButton9)
-                        .addGap(256, 256, 256)
-                        .addComponent(jButton7)))
-                .addContainerGap(91, Short.MAX_VALUE))
+                        .addGap(160, 160, 160)
+                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(153, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -114,9 +109,7 @@ public class collegeappnext4 extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jButton8)
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton7)
-                    .addComponent(jButton9))
+                .addComponent(jButton9)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -139,6 +132,7 @@ public class collegeappnext4 extends javax.swing.JFrame {
         // TODO add your handling code here:
         collegeapp1 a = new collegeapp1();
         a.show();
+        this.dispose();
     }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
@@ -183,7 +177,6 @@ public class collegeappnext4 extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     // End of variables declaration//GEN-END:variables

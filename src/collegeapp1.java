@@ -1,3 +1,7 @@
+
+import static java.awt.SystemColor.window;
+import java.awt.Window;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -112,6 +116,7 @@ public class collegeapp1 extends javax.swing.JFrame {
         {
         collegeappnext4 sc = new collegeappnext4();
         sc.show();
+        this.dispose();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -119,6 +124,7 @@ public class collegeapp1 extends javax.swing.JFrame {
         // TODO add your handling code here:
         collegeimg s = new collegeimg();
         s.show();
+        this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
